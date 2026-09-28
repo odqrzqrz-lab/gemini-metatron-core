@@ -1,0 +1,13 @@
+{
+  "name": "gemini-metatron-core",
+  "version": "1.0.0",
+  "description": "Central engine for Gemini-powered metacognitive workflows, MCP server integrations, and next-gen agent architectures.",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
