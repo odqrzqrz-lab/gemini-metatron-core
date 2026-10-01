@@ -1,15 +1,13 @@
 {
-  "name": "gemini-metatron-core",
+  "name": "app",
   "version": "1.0.0",
   "description": "Central engine for Gemini-powered metacognitive workflows, MCP server integrations, and next-gen agent architectures.",
-  "main": "src/index.js",
+  "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -22,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/odqrzqrz-lab/gemini-metatron-core/issues"
   },
-  "homepage": "https://github.com/odqrzqrz-lab/gemini-metatron-core#readme",
-  "devDependencies": {
-    "wrangler": "^3.0.0"
-  }
+  "homepage": "https://github.com/odqrzqrz-lab/gemini-metatron-core#readme"
 }
