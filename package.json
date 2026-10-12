@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/odqrzqrz-lab/gemini-metatron-core/issues"
   },
-  "homepage": "https://github.com/odqrzqrz-lab/gemini-metatron-core#readme"
+  "homepage": "https://github.com/odqrzqrz-lab/gemini-metatron-core#readme",
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
 }
